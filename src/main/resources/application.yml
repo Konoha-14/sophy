@@ -3,9 +3,9 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5434/sophy_habits
-    username: postgres
-    password: trace
+    url: jdbc:postgresql://dpg-cnmq1eo21fec7398cbe0-a/sophy_habits
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
   jpa:
     properties:
       hibernate:
